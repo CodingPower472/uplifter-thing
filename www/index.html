@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">    
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    
+    <script src="lib/angular-route/angular-route.min.js"></script> 
+    <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/moods.js"></script>
+    <script src="js/mood.js"></script>
+    <script src="js/soundCloudAudio.js"></script>
+    <script src="js/getPlaylist.js"></script>
+    <script src="js/getEmbed.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-positive">
+        
+      </ion-header-bar>
+
+      <ion-content class="main padding">
+      <div class="top">
+        <h1 class="title">Uplifter</h1>
+      </div>
+<<<<<<< HEAD
+      <div ng-view></div>
+      </ion-content>
+=======
+      <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Choose your mood">
+        </label>        
+      </div>
+      <button class="button button-block button-light button-outline">Surprise Me</button>
+      <ul class="list list-inset">
+        <li class="item">
+          Happy
+        </li>
+      
+        <li class="item">
+          Sleepy
+        </li>
+      
+        <li class="item">
+          Optimistic
+        </li>
+      </ul>
+      </ion-content>
+      <div class="tabs">
+          <a class="tab-item">
+            Playlist by location
+          </a>
+          <a class="tab-item">
+            More Moods
+          </a>
+          <a class="tab-item">
+            Your Library
+          </a>
+      </div>    
+>>>>>>> c92b2994554b02c40385e502677144183b4e7baa
+    </ion-pane>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{{ moods }}
+
+<ion-list>
+  <ion-item ng-repeat="mood in moods" ng-href="#/moods/{{ $index }}">{{ mood.title }}</ion-item>  
+</ion-list>
